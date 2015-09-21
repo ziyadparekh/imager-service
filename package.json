@@ -1,0 +1,22 @@
+{
+  "name": "imager-service",
+  "version": "0.0.1",
+  "description": "Image upload and manipulation service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ziyad Parekh",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "^1.14.0",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "multer": "^1.0.4",
+    "mysql": "^2.9.0",
+    "s3-uploader": "^1.0.0",
+    "underscore": "^1.8.3"
+  }
+}
